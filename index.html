@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Kezban Ramadzan - Portofolio Landing Page</title>
+  <meta name="description" content="Portofolio resmi Muhammad Kezban Ramadzan - Mahasiswa Teknik Informatika Universitas Pancasila Semester 7. Tech Enthusiast & Aspiring IT Professional.">
+  <meta name="author" content="Muhammad Kezban Ramadzan">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://img.icons8.com/color/48/code-file.png" type="image/png">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom" id="mainNavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          Kezban<span>.dev</span>
+        </a>
+        <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Pendidikan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#motivation">Motivasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Keahlian</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Portofolio</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn-primary-custom" href="#contact" id="navContactBtn">
+                <i class="fa-regular fa-paper-plane me-1"></i> Kontak
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7" data-aos="fade-right">
+            <div class="hero-badge">
+              <span class="pulse-dot"></span>
+              Mahasiswa Semester 7 • Universitas Pancasila
+            </div>
+            <h1 class="hero-title">
+              Halo, Saya <br>
+              <span class="text-gradient">Muhammad Kezban Ramadzan</span>
+            </h1>
+            <p class="hero-subtitle">
+              Mahasiswa Teknik Informatika yang berdedikasi tinggi untuk mengeksplorasi potensi teknologi informasi dan meraih peluang profesional di dunia digital.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#about" class="btn-primary-custom" id="heroExploreBtn">
+                Eksplor Profil <i class="fa-solid fa-arrow-down ms-1"></i>
+              </a>
+              <a href="#contact" class="btn-outline-custom" id="heroContactBtn">
+                Hubungi Saya <i class="fa-solid fa-envelope ms-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5" data-aos="fade-left" data-aos-delay="200">
+            <div class="code-card mt-5 mt-lg-0">
+              <div class="code-card-header">
+                <div class="code-dots">
+                  <span class="code-dot code-dot-red"></span>
+                  <span class="code-dot code-dot-yellow"></span>
+                  <span class="code-dot code-dot-green"></span>
+                </div>
+                <div class="code-card-title">
+                  <i class="fa-solid fa-terminal me-1 text-gradient"></i> profile.config.js
+                </div>
+              </div>
+              <div class="code-card-body">
+                <div><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {</div>
+                <div class="ps-3"><span class="code-property">name</span>: <span class="code-string">"Muhammad Kezban Ramadzan"</span>,</div>
+                <div class="ps-3"><span class="code-property">birthDate</span>: <span class="code-string">"Jakarta, 30 Mei 2005"</span>,</div>
+                <div class="ps-3"><span class="code-property">university</span>: <span class="code-string">"Universitas Pancasila"</span>,</div>
+                <div class="ps-3"><span class="code-property">major</span>: <span class="code-string">"Teknik Informatika"</span>,</div>
+                <div class="ps-3"><span class="code-property">semester</span>: <span class="code-number">7</span>,</div>
+                <div class="ps-3"><span class="code-property">highSchool</span>: <span class="code-string">"SMA Negeri 11 Kota Bekasi"</span>,</div>
+                <div class="ps-3"><span class="code-property">status</span>: <span class="code-string">"Ready for Opportunities"</span></div>
+                <div>};</div>
+                <div class="mt-2"><span class="code-comment">// Ready to excel beyond limits! 🚀</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  ABOUT ME SECTION  -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-title-wrapper" data-aos="fade-up">
+          <span class="section-tag">Biodata Diri</span>
+          <h2 class="section-title">Tentang <span class="text-gradient">Saya</span></h2>
+          <p class="section-subtitle">Mengenal lebih dekat profil pribadi dan latar belakang akademik saya.</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <!-- Detail Informasi Card -->
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="info-card">
+              <h3 class="h4 mb-4 text-gradient"><i class="fa-solid fa-user-gear me-2"></i> Detail Informasi</h3>
+              <ul class="info-list">
+                <li class="info-item">
+                  <div class="info-icon">
+                    <i class="fa-solid fa-signature"></i>
+                  </div>
+                  <div>
+                    <div class="info-label">Nama Lengkap</div>
+                    <div class="info-value">Muhammad Kezban Ramadzan</div>
+                  </div>
+                </li>
+                <li class="info-item">
+                  <div class="info-icon">
+                    <i class="fa-solid fa-cake-candles"></i>
+                  </div>
+                  <div>
+                    <div class="info-label">Tempat, Tanggal Lahir</div>
+                    <div class="info-value">Jakarta, 30 Mei 2005</div>
+                  </div>
+                </li>
+                <li class="info-item">
+                  <div class="info-icon">
+                    <i class="fa-solid fa-building-columns"></i>
+                  </div>
+                  <div>
+                    <div class="info-label">Perguruan Tinggi</div>
+                    <div class="info-value">Universitas Pancasila</div>
+                  </div>
+                </li>
+                <li class="info-item">
+                  <div class="info-icon">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                  <div>
+                    <div class="info-label">Program Studi</div>
+                    <div class="info-value">Teknik Informatika (Semester 7)</div>
+                  </div>
+                </li>
+                <li class="info-item">
+                  <div class="info-icon">
+                    <i class="fa-solid fa-school"></i>
+                  </div>
+                  <div>
+                    <div class="info-label">Pendidikan SMA</div>
+                    <div class="info-value">SMA Negeri 11 Kota Bekasi</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Ringkasan Profil Card (High Contrast Text) -->
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
+            <div class="info-card d-flex flex-column justify-content-between">
+              <div>
+                <h3 class="h4 mb-4 text-gradient"><i class="fa-solid fa-bullseye me-2"></i> Ringkasan Profil</h3>
+                <p class="text-muted mb-4">
+                  Saya adalah seorang mahasiswa <strong class="text-white">Teknik Informatika Universitas Pancasila</strong> yang saat ini sedang menempuh <strong class="text-white">Semester 7</strong>. Sebelumnya, saya menyelesaikan pendidikan menengah di <strong class="text-white">SMA Negeri 11 Kota Bekasi</strong>.
+                </p>
+                <p class="text-muted mb-4">
+                  Memiliki motivasi dan antusiasme tinggi untuk terus memperdalam pengetahuan di bidang Teknologi Informasi. Saya aktif mempelajari arsitektur web modern, pengembangan perangkat lunak, serta manajemen basis data untuk mempersiapkan diri menghadapi tantangan di dunia profesional.
+                </p>
+              </div>
+
+              <div class="row g-3 mt-2">
+                <div class="col-6">
+                  <div class="p-3 border rounded-3 bg-glass text-center">
+                    <div class="fs-3 fw-bold text-gradient">7</div>
+                    <small class="text-muted fw-semibold">Semester Berjalan</small>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-3 border rounded-3 bg-glass text-center">
+                    <div class="fs-3 fw-bold text-gradient-purple">100%</div>
+                    <small class="text-muted fw-semibold">Komitmen Belajar</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section id="education" class="education-section">
+      <div class="container">
+        <div class="section-title-wrapper" data-aos="fade-up">
+          <span class="section-tag">Jejak Akademik</span>
+          <h2 class="section-title">Riwayat <span class="text-gradient">Pendidikan</span></h2>
+          <p class="section-subtitle">Perjalanan akademis saya dari jenjang sekolah menengah hingga perguruan tinggi.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1: Perguruan Tinggi -->
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2022 - Sekarang</span>
+              <h3 class="timeline-title">Universitas Pancasila</h3>
+              <div class="timeline-subtitle">S1 Teknik Informatika (Semester 7)</div>
+              <p class="timeline-desc mb-0">
+                Fokus mendalam pada pengembangan sistem perangkat lunak, pemrograman web, struktur data, arsitektur basis data, serta kesiapan karier di industri IT profesional.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: SMA -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="150">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2019 - 2022</span>
+              <h3 class="timeline-title">SMA Negeri 11 Kota Bekasi</h3>
+              <div class="timeline-subtitle">Sekolah Menengah Atas (MIPA)</div>
+              <p class="timeline-desc mb-0">
+                Menyelesaikan pendidikan SMA dengan konsentrasi Ilmu Pengetahuan Alam (MIPA), membangun fondasi berpikir analitis, matematika, dan logika pemecahan masalah.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: Kelahiran -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">30 Mei 2005</span>
+              <h3 class="timeline-title">Lahir di Jakarta</h3>
+              <div class="timeline-subtitle">Awal Perjalanan</div>
+              <p class="timeline-desc mb-0">
+                Lahir dan dibesarkan di Jakarta dengan ketertarikan yang kuat terhadap dunia sains, logika, dan perkembangan teknologi komputer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MOTIVATION BANNER SECTION ==================== -->
+    <section id="motivation" class="motivation-section">
+      <div class="container">
+        <div class="motivation-card text-center" data-aos="zoom-in">
+          <div class="quote-icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <p class="motivation-text">
+            "Motivasi saya untuk belajar lebih dalam mengenai dunia IT adalah, saya masih bisa melihat peluang yang diberikan di dunia professional dan saya harap dengan adanya peluang itu dapat membuat diri saya jauh melampaui batas saya."
+          </p>
+          <div class="motivation-author">
+            — Muhammad Kezban Ramadzan —
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-title-wrapper" data-aos="fade-up">
+          <span class="section-tag">Kompetensi</span>
+          <h2 class="section-title">Keahlian & <span class="text-gradient">Teknologi</span></h2>
+          <p class="section-subtitle">Teknologi dan tools yang saya pelajari dan gunakan dalam pembuatan proyek IT.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Skill 1 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div class="skill-name">HTML5</div>
+              <div class="skill-desc">Struktur semantik web modern</div>
+            </div>
+          </div>
+          <!-- Skill 2 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="150">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <div class="skill-name">CSS3</div>
+              <div class="skill-desc">Custom styling & animations</div>
+            </div>
+          </div>
+          <!-- Skill 3 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fa-brands fa-bootstrap"></i>
+              </div>
+              <div class="skill-name">Bootstrap 5</div>
+              <div class="skill-desc">Responsive framework & grid</div>
+            </div>
+          </div>
+          <!-- Skill 4 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="250">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div class="skill-name">JavaScript</div>
+              <div class="skill-desc">Interaktivitas & DOM logic</div>
+            </div>
+          </div>
+          <!-- Skill 5 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div class="skill-name">Database</div>
+              <div class="skill-desc">Manajemen data & query SQL</div>
+            </div>
+          </div>
+          <!-- Skill 6 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="350">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+              <div class="skill-name">Git & GitHub</div>
+              <div class="skill-desc">Version control system</div>
+            </div>
+          </div>
+          <!-- Skill 7 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+              <div class="skill-name">Responsive Design</div>
+              <div class="skill-desc">Mobile & Desktop optimization</div>
+            </div>
+          </div>
+          <!-- Skill 8 -->
+          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="450">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <div class="skill-name">Problem Solving</div>
+              <div class="skill-desc">Analisis logis & algoritma</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-title-wrapper" data-aos="fade-up">
+          <span class="section-tag">Hasil Karya</span>
+          <h2 class="section-title">Portofolio <span class="text-gradient">Proyek</span></h2>
+          <p class="section-subtitle">Beberapa proyek web & tugas perkuliahan yang telah dikerjakan.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-card">
+              <div class="project-img-box">
+                <i class="fa-solid fa-globe text-gradient fs-1"></i>
+              </div>
+              <div class="project-body">
+                <div class="project-tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">Bootstrap 5</span>
+                </div>
+                <h3 class="project-title">Personal Profile Landing Page</h3>
+                <p class="project-desc">
+                  Landing page portofolio pribadi modern dengan desain glassmorphism, responsive grid, serta animasi interactive.
+                </p>
+                <a href="#home" class="project-link">
+                  Lihat Detail <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-card">
+              <div class="project-img-box">
+                <i class="fa-solid fa-laptop-code text-gradient fs-1"></i>
+              </div>
+              <div class="project-body">
+                <div class="project-tags">
+                  <span class="tag">Web Dev</span>
+                  <span class="tag">UI/UX</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+                <h3 class="project-title">Sistem Informasi Akademik</h3>
+                <p class="project-desc">
+                  Simulasi aplikasi pengelolaan data mahasiswa dan perkuliahan berbasis web untuk tugas semester Teknik Informatika.
+                </p>
+                <a href="#contact" class="project-link">
+                  Minta Demo <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-card">
+              <div class="project-img-box">
+                <i class="fa-solid fa-server text-gradient-purple fs-1"></i>
+              </div>
+              <div class="project-body">
+                <div class="project-tags">
+                  <span class="tag">Database</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">SQL Query</span>
+                </div>
+                <h3 class="project-title">Perancangan Basis Data</h3>
+                <p class="project-desc">
+                  Desain skema basis data terstruktur (ERD) dan optimasi query data untuk skala sistem informasi enterprise.
+                </p>
+                <a href="#contact" class="project-link">
+                  Pelajari Selengkapnya <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-title-wrapper" data-aos="fade-up">
+          <span class="section-tag">Koneksi</span>
+          <h2 class="section-title">Hubungi <span class="text-gradient">Saya</span></h2>
+          <p class="section-subtitle">Punya pertanyaan, peluang kerja sama, atau sekadar ingin menyapa? Mari terhubung!</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="contact-card">
+
+              <!-- Success Alert -->
+              <div class="alert alert-success d-none mb-4 bg-glass text-white border-success" id="formSuccessAlert" role="alert">
+                <i class="fa-solid fa-circle-check me-2 text-success"></i> Terima kasih! Pesan Anda telah berhasil terkirim.
+              </div>
+
+              <form id="contactForm">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="contactName" class="form-label text-dim small fw-semibold">Nama Anda</label>
+                    <input type="text" class="form-control form-control-custom" id="contactName" placeholder="Masukkan nama Anda" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="contactEmail" class="form-label text-dim small fw-semibold">Email Anda</label>
+                    <input type="email" class="form-control form-control-custom" id="contactEmail" placeholder="nama@email.com" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="contactSubject" class="form-label text-dim small fw-semibold">Subjek Pesan</label>
+                    <input type="text" class="form-control form-control-custom" id="contactSubject" placeholder="Subjek atau Topik Pembicaraan" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="contactMessage" class="form-label text-dim small fw-semibold">Pesan Anda</label>
+                    <textarea class="form-control form-control-custom" id="contactMessage" rows="4" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                  </div>
+                  <div class="col-12 mt-4 text-center">
+                    <button type="submit" class="btn-primary-custom w-100 justify-content-center" id="submitFormBtn">
+                      Kirim Pesan <i class="fa-solid fa-paper-plane ms-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              <hr class="my-4 border-secondary opacity-25">
+
+              <div class="text-center">
+                <p class="text-muted small mb-2">Atau terhubung secara profesional melalui:</p>
+                <div class="social-links justify-content-center">
+                  <a href="mailto:kezban.ramadzan@gmail.com" class="social-btn" title="Email" target="_blank" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                  <a href="https://linkedin.com" class="social-btn" title="LinkedIn" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://github.com" class="social-btn" title="GitHub" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://instagram.com" class="social-btn" title="Instagram" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas" title="Kembali ke atas">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+          <p class="mb-0">&copy; 2026 <strong>Muhammad Kezban Ramadzan</strong>. All Rights Reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <small class="text-muted">Teknik Informatika - Universitas Pancasila</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5.3 Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
